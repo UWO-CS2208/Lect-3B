@@ -1,0 +1,15 @@
+Examples from lecture topic 3B - Branching
+
+simpleLoop - our first example, counts to 11
+
+loop - example from the textbook with a little more going on
+
+Try filling some delay slots!
+to run these (if you do not already have "./" in your PATH variable):
+> gcc -o sloop simpleLoop.s iofunc.o
+> ./sloop
+
+> gcc -o loop loop.s iofunc.o
+> ./loop
+
+
